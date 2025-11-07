@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фахрутдинов Руслан — Backend Developer</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0e0e10;
+      --text: #f1f1f1;
+      --accent: #7b61ff;
+      --muted: #999;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Inter", "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    h1 { margin: 0.5rem 0; font-size: 2.2rem; }
+    h2 { margin-top: 2.5rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    main {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 0 1rem 4rem;
+    }
+    section { margin-bottom: 2rem; }
+    ul { margin: 0.3rem 0 0.8rem 1.5rem; }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+      color: var(--muted);
+    }
+    .skills span {
+      background: #1a1a1f;
+      border: 1px solid #2e2e33;
+      border-radius: 8px;
+      padding: 0.25rem 0.6rem;
+      margin: 0.2rem;
+      display: inline-block;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="assets/ruslan.jpg" alt="Руслан Фахрутдинов">
+    <h1>Фахрутдинов Руслан</h1>
+    <p>Backend Developer · Java / Kotlin / Spring Boot</p>
+    <p>
+      <a href="https://t.me/Ruslanka_1">Telegram</a> ·
+      <a href="mailto:ruslanka1@gmail.com">Email</a> ·
+      <a href="resume/ruslan_fakhrutdinov.pdf">Резюме PDF</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Опыт</h2>
+      <h3>Автодория — Java-разработчик (2024 — настоящее время)</h3>
+      <ul>
+        <li>Проектировал аналитический сервис общественного транспорта Казани</li>
+        <li>Серверная генерация GeoJSON-тайлов (маршруты, остановки)</li>
+        <li>TimescaleDB/PostGIS: 200 млн точек телеметрии, BRIN/GiST индексы</li>
+        <li>Оптимизация SQL-запросов: 950 мс → 120 мс</li>
+        <li>Интеграции через gRPC, Kafka, RabbitMQ, Redis</li>
+      </ul>
+
+      <h3>Fibonacci AI — Java/Kotlin-разработчик (2022 — 2024)</h3>
+      <ul>
+        <li>Спроектировал микросервисную систему (Auth, Billing, Gateway, Generation)</li>
+        <li>Создал Telegram-бота для генерации презентаций через LLM/TTI</li>
+        <li>Интегрировал JWT, платежные шлюзы, защиту от спама</li>
+        <li>Вынес ресурсоемкие задачи в RabbitMQ, кеш в Redis</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Навыки</h2>
+      <div class="skills">
+        <span>Java 21</span><span>Kotlin</span><span>Spring Boot</span><span>Spring Cloud</span>
+        <span>PostgreSQL</span><span>TimescaleDB</span><span>PostGIS</span>
+        <span>Kafka</span><span>RabbitMQ</span><span>Redis</span>
+        <span>Liquibase</span><span>Docker</span><span>JMeter</span><span>GitLab CI/CD</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Обо мне</h2>
+      <p>
+        Backend-инженер, для которого важно, чтобы сервисы не просто работали, а выдерживали
+        реальные нагрузки и были предсказуемы.  
+        Люблю чистый, читаемый код и архитектуру, где масштабируемость не мешает простоте.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Фахрутдинов Руслан · Powered by GitHub Pages
+  </footer>
+</body>
+</html>
