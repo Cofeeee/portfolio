@@ -1,0 +1,16 @@
+title: "Фахрутдинов Руслан — Backend Developer"
+description: "Java / Kotlin Backend Engineer | Spring Boot | PostgreSQL | Kafka | Docker"
+theme: jekyll-theme-cayman
+show_downloads: false
+google_analytics: false
+
+# Добавим ссылки в футер
+github:
+  is_project_page: true
+  repository_url: https://github.com/cofeeee
+
+# Настройки автора
+author:
+  name: "Фахрутдинов Руслан"
+  email: "Ruslanka_04@mail.ru"
+  avatar: "/assets/ruslan.jpg"
