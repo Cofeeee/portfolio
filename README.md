@@ -66,8 +66,8 @@
 - 📍 Казань, Россия  
 - 📞 +7 903 388-37-25  
 - 💬 Telegram: [@Ruslanka_1](https://t.me/Ruslanka_1)  
-- 💼 [LinkedIn](https://linkedin.com/in/ruslanka) *(добавь при наличии)*  
-- 🧑‍💻 [GitHub](https://github.com/yourusername)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ruslan-fahrutdinov-749833354/)
+- 🧑‍💻 [GitHub](https://github.com/cofeeee)  
 - 📄 [Резюме (PDF)](./resume/ruslan_fakhrutdinov.pdf)
 
 ---
